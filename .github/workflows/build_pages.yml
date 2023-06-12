@@ -15,5 +15,5 @@ jobs:
         uses: peter-evans/repository-dispatch@v1
         with:
           token: ${{ secrets.TOKEN_FOR_AUTO_DEPLOY }}
-          repository: oldautumn/CNLaws.github.io
+          repository: oldautumn/CNLaw.github.io
           event-type: build
